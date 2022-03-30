@@ -5,12 +5,6 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
-    <fragment
-        android:id="@+id/nav_first_installed"
-        android:name="com.example.CurrencyConverter.ui.home.FirstInstalledFragment"
-        android:label="@string/currency_converter"
-        tools:layout="@layout/first_installed_layout" />
-
 
     <fragment
         android:id="@+id/nav_home"

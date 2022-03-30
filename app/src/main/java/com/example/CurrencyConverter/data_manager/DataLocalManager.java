@@ -8,7 +8,6 @@ import java.util.Map;
 public class DataLocalManager {
     private static final String AUTO_UPDATE = "AUTO_UPDATE";
     private static final String DECIMAL_NUMBER = "DECIMAL_NUMBER";
-    private static final String FIRST_INSTALLED = "FIRST_INSTALLED";
     private static final String CURRENT_SRC_CUR = "CURRENT_SRC_CUR";
     private static final String CURRENT_DES_CUR = "CURRENT_DES_CUR";
     private static final String CONVERTED_NUM = "CONVERTED_NUM";
@@ -56,13 +55,13 @@ public class DataLocalManager {
         return DataLocalManager.getInstance().statusSharedPrefs.getIntValue(DECIMAL_NUMBER);
     }
 
-    public static void setFirstInstalled(boolean value){
-        DataLocalManager.getInstance().statusSharedPrefs.putBooleanValue(FIRST_INSTALLED, value);
-    }
-
-    public static boolean getFirstInstalled(){
-        return DataLocalManager.getInstance().statusSharedPrefs.getBooleanValue(FIRST_INSTALLED, true);
-    }
+//    public static void setFirstInstalled(boolean value){
+//        DataLocalManager.getInstance().statusSharedPrefs.putBooleanValue(FIRST_INSTALLED, value);
+//    }
+//
+//    public static boolean getFirstInstalled(){
+//        return DataLocalManager.getInstance().statusSharedPrefs.getBooleanValue(FIRST_INSTALLED, true);
+//    }
 
     public static void setCurrentSrcCur(String value){
         DataLocalManager.getInstance().statusSharedPrefs.putStringValue(CURRENT_SRC_CUR, value);

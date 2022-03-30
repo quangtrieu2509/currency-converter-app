@@ -10,7 +10,6 @@ import com.example.CurrencyConverter.ui.home.HomeFragment;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
-import androidx.navigation.NavGraph;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
@@ -39,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         View root = binding.getRoot();
 
         // gọi API khi vừa install app hoặc bật tự động cập nhật
-        if(DataLocalManager.getFirstInstalled() || DataLocalManager.getAutoUpdate())
-            HomeFragment.currencyAPICall(root);
+        if(DataLocalManager.getAutoUpdate())   //DataLocalManager.getFirstInstalled() ||
+                HomeFragment.currencyAPICall(root);
 
         setSupportActionBar(binding.appBarMain.toolbar);
 
@@ -50,18 +49,18 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_favorite, R.id.nav_settings, R.id.nav_about_us, R.id.nav_first_installed)
+                R.id.nav_home, R.id.nav_favorite, R.id.nav_settings, R.id.nav_about_us)
                 .setOpenableLayout(drawer)
                 .build();
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
 
         // Khi vừa install thì set fragment welcome để đợi gọi API xong
-        if(DataLocalManager.getFirstInstalled()){
-            NavGraph navGraph = navController.getNavInflater().inflate(R.navigation.mobile_navigation);
-            navGraph.setStartDestination(R.id.nav_first_installed);
-            navController.setGraph(navGraph);
-        }
+//        if(DataLocalManager.getFirstInstalled()){
+//            NavGraph navGraph = navController.getNavInflater().inflate(R.navigation.mobile_navigation);
+//            navGraph.setStartDestination(R.id.nav_first_installed);
+//            navController.setGraph(navGraph);
+//        }
 
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);

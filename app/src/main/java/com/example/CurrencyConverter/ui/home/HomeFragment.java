@@ -125,7 +125,7 @@ public class HomeFragment extends Fragment {
                     String tmp = currentDesCur;
                     currentDesCur = currentSrcCur;
                     currentSrcCur = tmp;
-                    //reset up
+                    //resetup
                     setUpSourceCurrency();
                 }
             }
@@ -255,16 +255,16 @@ public class HomeFragment extends Fragment {
                     dialog.dismiss();
                 }
             });
-        else choosingListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @SuppressLint("SetTextI18n")
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                currentDesCur = adapter.getItem(position).getCode();
-
-                setUpDestinationCurrency();
-                dialog.dismiss();
-            }
-        });
+        else
+            choosingListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @SuppressLint("SetTextI18n")
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    currentDesCur = adapter.getItem(position).getCode();
+                    setUpDestinationCurrency();
+                    dialog.dismiss();
+                }
+            });
 
         // event ấn nút cancel
         btnCancel.setOnClickListener(new View.OnClickListener() {
@@ -556,7 +556,7 @@ public class HomeFragment extends Fragment {
         choosingList = new ArrayList<>();
         for(Map.Entry<String, CurrencyUnit> set : CurrencyList.currList.entrySet())
             if(DataLocalManager.getExchangeRate(set.getKey()) != 0){
-                Log.i("EXE", set.getKey()+DataLocalManager.getExchangeRate(set.getKey()));
+//                Log.i("EXE", set.getKey()+DataLocalManager.getExchangeRate(set.getKey()));
                 choosingList.add(set.getValue());
             }
 
