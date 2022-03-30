@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.CurrencyConverter.ui.settings.SettingsFragment">
+
+
+    <TextView
+        android:id="@+id/network_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/network_settings"
+        android:textColor="@color/main_color"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:id="@+id/network_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/network_text_view"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:paddingVertical="15dp">
+
+
+        <TextView
+            android:id="@+id/automatic_update_symbol"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/automatic_update_symbol"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/automatic_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/automatic_update_symbol"
+            android:text="@string/automatic_update"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/update_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/automatic_update"
+            android:layout_toEndOf="@id/automatic_update_symbol"
+            android:text="@string/automatic_update_enabled" />
+
+        <Switch
+            android:id="@+id/automatic_update_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/horizontal_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/network_relative_layout"
+        android:background="#888F9295"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/appearance_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontal_line"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/main_color"
+        android:textStyle="bold"
+        android:text="@string/appearance_settings" />
+
+    <RelativeLayout
+        android:id="@+id/appearance_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appearance_text_view"
+        android:paddingVertical="15dp">
+
+        <TextView
+            android:id="@+id/decimal_number_symbol"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/decimal_number_symbol"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/decimal_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/decimal_number_symbol"
+            android:text="@string/decimal_number"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/decimal_number_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/decimal_number"
+            android:layout_toEndOf="@id/decimal_number_symbol"
+            android:text="@string/decimal_number_2" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

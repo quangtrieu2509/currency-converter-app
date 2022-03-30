@@ -1,0 +1,452 @@
+<resources>
+    <string name="app_name" >Currency Converter</string>
+    <string name="nav_header_title" translatable="false">Currency Converter</string>
+    <string name="nav_header_subtitle" translatable="false">currency.converter@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_settings">Settings</string>
+    <string name="default_value">No value</string>
+    <string name="menu_about_us">About</string>
+    <string name="empty_fav_list">Empty favorite list</string>
+    <string name="default_value_number" translatable="false">0</string>
+
+    <string name="_all">Albanian Lek</string>
+    <string name="_dzd">Algerian Dinar</string>
+    <string name="_usd">US Dollar</string>
+    <string name="_eur">Euro</string>
+    <string name="_aoa">Angolan Kwanza</string>
+    <string name="_xcd">East Caribbean Dollar</string>
+    <string name="_ars">Argentine Peso</string>
+    <string name="_amd">Armenian Dram</string>
+    <string name="_awg">Aruban Florin</string>
+    <string name="_aud">Australian Dollar</string>
+    <string name="_azn">Azerbaijan Manat</string>
+    <string name="_bsd">Bahamian Dollar</string>
+    <string name="_bhd">Bahraini Dinar</string>
+    <string name="_bdt">Bangladeshi Taka</string>
+    <string name="_bbd">Barbados Dollar</string>
+    <string name="_xof">West African CFA franc</string>
+    <string name="_bzd">Belize Dollar</string>
+    <string name="_bmd">Bermudian Dollar</string>
+    <string name="_btn">Bhutanese Ngultrum</string>
+    <string name="_inr">Indian Rupee</string>
+    <string name="_bob">Bolivian Boliviano</string>
+    <string name="_bam">Bosnia-Herzegovina convertible Mark</string>
+    <string name="_bwp">Botswana Pula</string>
+    <string name="_brl">Brazilian Real</string>
+    <string name="_bnd">Brunei Dollar</string>
+    <string name="_bgn">Bulgarian Lev</string>
+    <string name="_bif">Burundi Franc</string>
+    <string name="_khr">Cambodian Riel</string>
+    <string name="_xaf">Central African CFA franc</string>
+    <string name="_cad">Canadian Dollar</string>
+    <string name="_cve">Cape Verde Escudo</string>
+    <string name="_kyd">Cayman Islands Dollar</string>
+    <string name="_clp">Chilean Peso</string>
+    <string name="_cny">Renminbi</string>
+    <string name="_cop">Colombian Peso</string>
+    <string name="_kmf">Comoro Franc</string>
+    <string name="_cdf">Congolese Franc</string>
+    <string name="_nzd">New Zealand Dollar</string>
+    <string name="_crc">Costa Rican Colón</string>
+    <string name="_hrk">Croatian Kuna</string>
+    <string name="_cup">Cuban Peso</string>
+    <string name="_try">Turkish Lira</string>
+    <string name="_czk">Czech Koruna</string>
+    <string name="_dkk">Danish Kroner</string>
+    <string name="_djf">Djiboutian Franc</string>
+    <string name="_egp">Egyptian Pound</string>
+    <string name="_dop">Dominican Peso</string>
+    <string name="_svc">Salvadoran Colón</string>
+    <string name="_ern">Eritrean Nakfa</string>
+    <string name="_etb">Ethiopian Birr</string>
+    <string name="_fkp">Falkland Islands Pound</string>
+    <string name="_fok">Faroese Króna</string>
+    <string name="_fjd">Fiji Dollar</string>
+    <string name="_xpf">CFP Franc</string>
+    <string name="_gmd">Gambian Dalasi</string>
+    <string name="_gel">Georgian Lari</string>
+    <string name="_ghc">Ghanaian Cedi 1967</string>
+    <string name="_gip">Gibraltar Pound</string>
+    <string name="_gtq">Guatemalan Quetzal</string>
+    <string name="_gnf">Guinea Franc</string>
+    <string name="_gyd">Guyana Dollar</string>
+    <string name="_htg">Haitian Gourde</string>
+    <string name="_hnl">Honduran Lempira</string>
+    <string name="_hkd">Hong Kong Dollar</string>
+    <string name="_huf">Hungarian Forint</string>
+    <string name="_isk">Iceland Króna</string>
+    <string name="_idr">Indonesian Rupiah</string>
+    <string name="_irr">Iranian Rial</string>
+    <string name="_iqd">Iraqi Dinar</string>
+    <string name="_ils">New Israeli Sheqel</string>
+    <string name="_jmd">Jamaican Dollar</string>
+    <string name="_jpy">Japanese Yen</string>
+    <string name="_jod">Jordanian Dinar</string>
+    <string name="_kzt">Kazakhstani Tenge</string>
+    <string name="_kes">Kenyan Shilling</string>
+    <string name="_kpw">North Korean Won</string>
+    <string name="_krw">South Korean Won</string>
+    <string name="_kwd">Kuwaiti Dinar</string>
+    <string name="_kgs">Kyrgyzstani Som</string>
+    <string name="_lak">Lao Kip</string>
+    <string name="_lbp">Lebanese Pound</string>
+    <string name="_lsl">Lesotho Loti</string>
+    <string name="_lrd">Liberian Dollar</string>
+    <string name="_lyd">Lybian Dinar</string>
+    <string name="_chf">Swiss Franc</string>
+    <string name="_mop">Macanese Pataca</string>
+    <string name="_mkd">Macedonian Denar</string>
+    <string name="_mgf">Malagasy Franc</string>
+    <string name="_mwk">Malawian Kwacha</string>
+    <string name="_myr">Malaysian Ringgit</string>
+    <string name="_mvr">Maldivian Rufiyaa</string>
+    <string name="_mtl">Maltese Lira</string>
+    <string name="_mro">Mauritanian Ouguiya 1973</string>
+    <string name="_mur">Mauritius Rupee</string>
+    <string name="_mxn">Mexican Peso</string>
+    <string name="_mdl">Moldovan Leu</string>
+    <string name="_mnt">Mongolia Tughrik</string>
+    <string name="_mad">Moroccan Dirham</string>
+    <string name="_mzm">Mozambican Metical 1980</string>
+    <string name="_mmk">Burmese Kyat</string>
+    <string name="_nad">Namibia Dollar</string>
+    <string name="_zar">South African Rand</string>
+    <string name="_npr">Nepalese Rupee</string>
+    <string name="_ang">Netherlands Antillean Guilder</string>
+    <string name="_nio">Nicaraguan Córdoba</string>
+    <string name="_ngn">Nigerian Naira</string>
+    <string name="_nok">Norwegian Krone</string>
+    <string name="_omr">Omani Rial</string>
+    <string name="_pkr">Pakistan Rupee</string>
+    <string name="_pab">Panamanian Balboa</string>
+    <string name="_pgk">Papua New Guinean Kina</string>
+    <string name="_pyg">Paraguayan Guarani</string>
+    <string name="_pen">Peruvian Sol</string>
+    <string name="_php">Philippine Peso</string>
+    <string name="_pln">Polish Zloty</string>
+    <string name="_qar">Qatari Rial</string>
+    <string name="_rol">Romanian Leu XVII</string>
+    <string name="_rub">Russian Ruble</string>
+    <string name="_rwf">Rwanda Franc</string>
+    <string name="_shp">Saint Helena Pound</string>
+    <string name="_wst">Samoan Tala</string>
+    <string name="_std">São Tomé and Príncipe Dobra 1977</string>
+    <string name="_sar">Saudi Riyal</string>
+    <string name="_csd">Serbian Dinar 2003</string>
+    <string name="_scr">Seychelles Rupee</string>
+    <string name="_sll">Sierra Leonean Leone</string>
+    <string name="_sgd">Singapore Dollar</string>
+    <string name="_skk">Slovak Koruna</string>
+    <string name="_sbd">Solomon Islands Dollar</string>
+    <string name="_sos">Somali Shilling</string>
+    <string name="_ssp">South Sudanese Pound</string>
+    <string name="_lkr">Sri Lanka Rupee</string>
+    <string name="_sdg">Sudanese Pound</string>
+    <string name="_srg">Suriname Guilder</string>
+    <string name="_szl">Swazi Lilangeni</string>
+    <string name="_sek">Swedish Krona</string>
+    <string name="_syp">Syrian Pound</string>
+    <string name="_twd">New Taiwan Dollar</string>
+    <string name="_tjs">Tajikistani Somoni</string>
+    <string name="_tzs">Tanzanian Shilling</string>
+    <string name="_thb">Thai Baht</string>
+    <string name="_top">Tonga Paʻanga</string>
+    <string name="_ttd">Trinidad and Tobago Dollar</string>
+    <string name="_tnd">Tunisian Dinar</string>
+    <string name="_tmm">Turkmenistani Manat</string>
+    <string name="_ugx">Ugandan Shilling</string>
+    <string name="_uah">Ukrainian Hryvnia</string>
+    <string name="_aed">UAE Dirham</string>
+    <string name="_gbp">Pound Sterling</string>
+    <string name="_uyu">Uruguayan Peso</string>
+    <string name="_uzs">Uzbekistan So\'m</string>
+    <string name="_vef">Venezuelan Bolívar hard 2008</string>
+    <string name="_vnd">Vietnamese Dong</string>
+    <string name="_vuv">Vanuatu Vatu</string>
+    <string name="_yer">Yemeni Rial</string>
+    <string name="_zmw">Zambian Kwacha</string>
+
+    <string name="_byn">Belarusian ruble</string>
+    <string name="_ggp">Guernsey Pound</string>
+    <string name="_imp">Manx Pound</string>
+    <string name="_jep">Jersey Pound</string>
+    <string name="_kid">Kiribati Dollar</string>
+    <string name="_mru">Mauritanian Ouguiya</string>
+    <string name="_stn">São Tomé and Príncipe Dobra</string>
+    <string name="_tvd">Tuvaluan Dollar</string>
+    <string name="_ves">Venezuelan Bolívar soberano</string>
+    <string name="_ved">Venezuelan Bolívar digital</string>
+    <string name="_xdr">Special drawing rights</string>
+    <string name="_zwl">Zimbabwean Dollar 2009</string>
+
+
+    <string name="_ron">Romanian Leu</string>
+    <string name="_cuc">Cuban convertible Peso</string>
+    <string name="_hrv">-Not found-</string>
+    <string name="_tmt">Turkmenistan Manat</string>
+    <string name="_rsd">Serbian Dinar</string>
+    <string name="_ghs">Ghanaian Cedi</string>
+    <string name="_bih">-Not found-</string>
+    <string name="_mzn">Mozambican Metical</string>
+    <string name="_mga">Malagasy Ariary</string>
+    <string name="_srd">Surinamese Dollar</string>
+    <string name="_xrp">Ripple (payment protocol)</string>
+    <string name="_btc" translatable="false">Bitcoin</string>
+    <string name="_eth" translatable="false">Ethereum</string>
+    <string name="_ltc" translatable="false">Litecoin</string>
+
+
+
+
+
+
+
+    <string name="u_afn" translatable="false">؋</string>
+    <string name="u_all" translatable="false">L</string>
+    <string name="u_dzd" translatable="false">د.ج</string>
+    <string name="u_usd" translatable="false">US$</string>
+    <string name="u_eur" translatable="false">€</string>
+    <string name="u_aoa" translatable="false">Kz</string>
+    <string name="u_xcd" translatable="false">EC$</string>
+    <string name="u_ars" translatable="false">$</string>
+    <string name="u_amd" translatable="false">֏</string>
+    <string name="u_awg" translatable="false">ƒ</string>
+    <string name="u_aud" translatable="false">AU$</string>
+    <string name="u_azn" translatable="false">₼</string>
+    <string name="u_bsd" translatable="false">BS$</string>
+    <string name="u_bhd" translatable="false">.د.ب</string>
+    <string name="u_bdt" translatable="false">৳</string>
+    <string name="u_bbd" translatable="false">BB$</string>
+    <string name="u_xof" translatable="false">Fr</string>
+    <string name="u_bzd" translatable="false">BZ$</string>
+    <string name="u_bmd" translatable="false">BM$</string>
+    <string name="u_btn" translatable="false">Nu.</string>
+    <string name="u_inr" translatable="false">₹</string>
+    <string name="u_bob" translatable="false">Bs.</string>
+    <string name="u_bam" translatable="false">KM</string>
+    <string name="u_bwp" translatable="false">P</string>
+    <string name="u_brl" translatable="false">R$</string>
+    <string name="u_bnd" translatable="false">BN$</string>
+    <string name="u_bgn" translatable="false">лв.</string>
+    <string name="u_bif" translatable="false">Fr</string>
+    <string name="u_khr" translatable="false">៛</string>
+    <string name="u_xaf" translatable="false">Fr</string>
+    <string name="u_cad" translatable="false">CA$</string>
+    <string name="u_cve" translatable="false">Esc</string>
+    <string name="u_kyd" translatable="false">KY$</string>
+    <string name="u_clp" translatable="false">$</string>
+    <string name="u_cny" translatable="false">¥</string>
+    <string name="u_cop" translatable="false">$</string>
+    <string name="u_kmf" translatable="false">Fr</string>
+    <string name="u_cdf" translatable="false">Fr</string>
+    <string name="u_nzd" translatable="false">NZ$</string>
+    <string name="u_crc" translatable="false">₡</string>
+    <string name="u_hrk" translatable="false">kn</string>
+    <string name="u_cup" translatable="false">$</string>
+    <string name="u_try" translatable="false">₺</string>
+    <string name="u_czk" translatable="false">Kč</string>
+    <string name="u_dkk" translatable="false">kr</string>
+    <string name="u_djf" translatable="false">Fr</string>
+    <string name="u_egp" translatable="false">ج.م</string>
+    <string name="u_dop" translatable="false">RD$</string>
+    <string name="u_svc" translatable="false">₡</string>
+    <string name="u_ern" translatable="false">Nfk</string>
+    <string name="u_etb" translatable="false">Br</string>
+    <string name="u_fkp" translatable="false">£</string>
+    <string name="u_fok" translatable="false">kr</string>
+    <string name="u_fjd" translatable="false">F$</string>
+    <string name="u_xpf" translatable="false">₣</string>
+    <string name="u_gmd" translatable="false">D</string>
+    <string name="u_gel" translatable="false">₾</string>
+    <string name="u_ghc" translatable="false">GH₵</string>
+    <string name="u_gip" translatable="false">£</string>
+    <string name="u_gtq" translatable="false">Q</string>
+    <string name="u_gnf" translatable="false">Fr</string>
+    <string name="u_gyd" translatable="false">G$</string>
+    <string name="u_htg" translatable="false">G</string>
+    <string name="u_hnl" translatable="false">L</string>
+    <string name="u_hkd" translatable="false">HK$</string>
+    <string name="u_huf" translatable="false">Ft</string>
+    <string name="u_isk" translatable="false">kr</string>
+    <string name="u_idr" translatable="false">Rp</string>
+    <string name="u_irr" translatable="false">Br</string>
+    <string name="u_iqd" translatable="false">ع.د</string>
+    <string name="u_ils" translatable="false">₪</string>
+    <string name="u_jmd" translatable="false">J$</string>
+    <string name="u_jpy" translatable="false">¥</string>
+    <string name="u_jod" translatable="false">د.ا</string>
+    <string name="u_kzt" translatable="false">₸</string>
+    <string name="u_kes" translatable="false">Sh</string>
+    <string name="u_kpw" translatable="false">₩</string>
+    <string name="u_krw" translatable="false">₩</string>
+    <string name="u_kwd" translatable="false">د.ك</string>
+    <string name="u_kgs" translatable="false">c</string>
+    <string name="u_lak" translatable="false">₭</string>
+    <string name="u_lbp" translatable="false">ل.ل</string>
+    <string name="u_lsl" translatable="false">L</string>
+    <string name="u_lrd" translatable="false">L$</string>
+    <string name="u_lyd" translatable="false">ل.د</string>
+    <string name="u_chf" translatable="false">Fr.</string>
+    <string name="u_mop" translatable="false">MOP$</string>
+    <string name="u_mkd" translatable="false">ден</string>
+    <string name="u_mgf" translatable="false">MF</string>
+    <string name="u_mwk" translatable="false">MK</string>
+    <string name="u_myr" translatable="false">RM</string>
+    <string name="u_mvr" translatable="false">.ރ</string>
+    <string name="u_mtl" translatable="false">₤M</string>
+    <string name="u_mro" translatable="false">UM</string>
+    <string name="u_mur" translatable="false">Rs</string>
+    <string name="u_mxn" translatable="false">M$</string>
+    <string name="u_mdl" translatable="false">L</string>
+    <string name="u_mnt" translatable="false">₮</string>
+    <string name="u_mad" translatable="false">د.م.</string>
+    <string name="u_mzm" translatable="false">MT</string>
+    <string name="u_mmk" translatable="false">Ks</string>
+    <string name="u_nad" translatable="false">NA$</string>
+    <string name="u_zar" translatable="false">R</string>
+    <string name="u_npr" translatable="false">रू</string>
+    <string name="u_ang" translatable="false">ƒ</string>
+    <string name="u_nio" translatable="false">C$</string>
+    <string name="u_ngn" translatable="false">₦</string>
+    <string name="u_nok" translatable="false">kr</string>
+    <string name="u_omr" translatable="false">ر.ع.</string>
+    <string name="u_pkr" translatable="false">₨</string>
+    <string name="u_pab" translatable="false">B/.</string>
+    <string name="u_pgk" translatable="false">K</string>
+    <string name="u_pyg" translatable="false">₲</string>
+    <string name="u_pen" translatable="false">S/.</string>
+    <string name="u_php" translatable="false">₱</string>
+    <string name="u_pln" translatable="false">zł</string>
+    <string name="u_qar" translatable="false">ر.ق</string>
+    <string name="u_rol" translatable="false">lei</string>
+    <string name="u_rub" translatable="false">₽</string>
+    <string name="u_rwf" translatable="false">Fr</string>
+    <string name="u_shp" translatable="false">£</string>
+    <string name="u_wst" translatable="false">T</string>
+    <string name="u_std" translatable="false">Db</string>
+    <string name="u_sar" translatable="false">﷼</string>
+    <string name="u_csd" translatable="false">дин</string>
+    <string name="u_scr" translatable="false">Rs</string>
+    <string name="u_sll" translatable="false">Le</string>
+    <string name="u_sgd" translatable="false">SG$</string>
+    <string name="u_skk" translatable="false">Sk</string>
+    <string name="u_sbd" translatable="false">SI$</string>
+    <string name="u_sos" translatable="false">Sh</string>
+    <string name="u_ssp" translatable="false">£</string>
+    <string name="u_lkr" translatable="false">රු</string>
+    <string name="u_sdg" translatable="false">ج.س.</string>
+    <string name="u_srg" translatable="false">ƒ</string>
+    <string name="u_szl" translatable="false">L</string>
+    <string name="u_sek" translatable="false">kr</string>
+    <string name="u_syp" translatable="false">ل.س</string>
+    <string name="u_twd" translatable="false">NT$</string>
+    <string name="u_tjs" translatable="false">c.</string>
+    <string name="u_tzs" translatable="false">Sh</string>
+    <string name="u_thb" translatable="false">฿</string>
+    <string name="u_top" translatable="false">T$</string>
+    <string name="u_ttd" translatable="false">TT$</string>
+    <string name="u_tnd" translatable="false">د.ت</string>
+    <string name="u_tmm" translatable="false">m.</string>
+    <string name="u_ugx" translatable="false">USh</string>
+    <string name="u_uah" translatable="false">₴</string>
+    <string name="u_aed" translatable="false">د.إ</string>
+    <string name="u_gbp" translatable="false">£</string>
+    <string name="u_uyu" translatable="false">U$</string>
+    <string name="u_uzs" translatable="false">Sʻ</string>
+    <string name="u_vef" translatable="false">Bs.F</string>
+    <string name="u_vnd" translatable="false">₫</string>
+    <string name="u_vuv" translatable="false">Vt</string>
+    <string name="u_yer" translatable="false">﷼</string>
+    <string name="u_zmw" translatable="false">ZK</string>
+
+    <string name="u_ron" translatable="false">lei</string>
+    <string name="u_cuc" translatable="false">CUC$</string>
+    <string name="u_hrv" translatable="false">(none)</string>
+    <string name="u_tmt" translatable="false">m.</string>
+    <string name="u_rsd" translatable="false">дин</string>
+    <string name="u_ghs" translatable="false">₵</string>
+    <string name="u_bih" translatable="false">(none)</string>
+    <string name="u_mzn" translatable="false">MT</string>
+    <string name="u_mga" translatable="false">Ar</string>
+    <string name="u_srd" translatable="false">SR$</string>
+    <string name="u_xrp" translatable="false">XRP</string>
+    <string name="u_btc" translatable="false">₿</string>
+    <string name="u_eth" translatable="false">ETH</string>
+    <string name="u_ltc" translatable="false">LTC</string>
+
+    <string name="u_byn" translatable="false">Br</string>
+    <string name="u_ggp" translatable="false">£</string>
+    <string name="u_imp" translatable="false">£</string>
+    <string name="u_jep" translatable="false">£</string>
+    <string name="u_kid" translatable="false">KI$</string>
+    <string name="u_mru" translatable="false">UM</string>
+    <string name="u_stn" translatable="false">Db</string>
+    <string name="u_tvd" translatable="false">TV$</string>
+    <string name="u_ves" translatable="false">Bs.</string>
+    <string name="u_xdr" translatable="false">XDR</string>
+    <string name="u_zwl" translatable="false">Z$</string>
+
+    <string name="txt_cancel">Cancel</string>
+    <string name="promp_searched_text">Currency name, Currency code,…</string>
+    <string name="home_dialog_title">Choose currency</string>
+    <string name="one_btn" translatable="false">1</string>
+    <string name="two_btn" translatable="false">2</string>
+    <string name="three_btn" translatable="false">3</string>
+    <string name="four_btn" translatable="false">4</string>
+    <string name="five_btn" translatable="false">5</string>
+    <string name="six_btn" translatable="false">6</string>
+    <string name="seven_btn" translatable="false">7</string>
+    <string name="eight_btn" translatable="false">8</string>
+    <string name="nine_btn" translatable="false">9</string>
+    <string name="dot_btn" translatable="false">.</string>
+    <string name="zero_btn" translatable="false">0</string>
+    <string name="wastebasket" translatable="false">🗑</string>
+    <string name="clear_btn">Clear</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="ok_btn" translatable="false">OK</string>
+    <string name="delete_text" translatable="false">⌫</string>
+    <string name="network_settings">Network</string>
+    <string name="automatic_update_symbol" translatable="false">↻</string>
+    <string name="automatic_update_enabled">Automatic update enabled</string>
+    <string name="automatic_update_disabled">Automatic update disabled</string>
+    <string name="automatic_update">Automatic update</string>
+    <string name="appearance_settings">Appearance</string>
+    <string name="decimal_number_symbol" translatable="false">$</string>
+    <string name="decimal_number">Decimal number</string>
+    <string name="decimal_number_1">1 decimal</string>
+    <string name="decimal_number_2">2 decimals</string>
+    <string name="decimal_number_3">3 decimals</string>
+    <string name="decimal_number_4">4 decimals</string>
+    <string name="decimal_number_5">5 decimals</string>
+    <string name="one_decimal">\t1 decimal</string>
+    <string name="two_decimals">\t2 decimals</string>
+    <string name="three_decimals">\t3 decimals</string>
+    <string name="four_decimals">\t4 decimals</string>
+    <string name="five_decimals">\t5 decimals</string>
+    <string name="successful_update_noti">Update successfully</string>
+    <string name="waiting_update_noti">Wait a second for updating!</string>
+    <string name="fail_update_noti">Connect to a network and restart app to update!</string>
+    <string name="fav_dialog_title">Choose favorite currency</string>
+    <string name="currency_converter" translatable="false">Currency Converter</string>
+    <string name="moved_item" translatable="false">☰</string>
+    <string name="support">Support</string>
+    <string name="installing_title" translatable="false">Currency Converter v1.0</string>
+    <string name="welcome_to_this_app">Welcome to the app!</string>
+    <string name="network_connecting_note">Note: Connect to the network to update data</string>
+    <string name="next_emoji" translatable="false">》</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="report_issues">Report issues</string>
+    <string name="legal_notices">Legal notices</string>
+    <string name="licences">Licences</string>
+    <string name="_afn">Afghan Afghani</string>
+    <string name="added">"Added "</string>
+    <string name="to_the_fav_list">" to the favorite list"</string>
+    <string name="deleted">"Deleted "</string>
+    <string name="after_installed_direction">Please go to the Home to use this app</string>
+
+
+</resources>

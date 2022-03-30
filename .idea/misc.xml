@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable/input_background.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable/menu_about_ic.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable/menu_favorite_ic.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable/result_background.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/drawable/side_nav_bar.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/activity_main.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/app_bar_main.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/choosing_listview_item.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/content_main.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/decimal_number_choosing.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/fav_listview_item.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/favhome_listview_item.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/first_installed_layout.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/fragment_aboutus.xml" value="0.2" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/fragment_favorite.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/fragment_home.xml" value="0.10280797101449275" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/fragment_settings.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/nav_header_main.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/showed_list_view.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/layout/user_input_dialog.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/menu/activity_main_drawer.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/menu/main.xml" value="0.12864583333333332" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/CurrencyConverter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14479166666666668" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/button_style.xml" value="0.2046875" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_aboutus.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_favorite.xml" value="0.1787037037037037" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_home.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/input_background.xml" value="0.196875" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/result_background.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/reverse_button.xml" value="0.2203125" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/side_nav_bar.xml" value="0.196875" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/drawable/tablelayout_background.xml" value="0.2046875" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout-v26/home_list_view.xml" value="0.18854166666666666" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout-v28/fragment_home.xml" value="0.18854166666666666" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout-v28/user_input_dialog.xml" value="0.1" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/add_fav_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/app_bar_main.xml" value="0.18" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/choosing_fav_listview_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/choosing_listview_item.xml" value="0.2164855072463768" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/decimal_number_choosing.xml" value="0.25" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/fav_listview_item.xml" value="0.21" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/favhome_listview_item.xml" value="0.25" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/first_installed_layout.xml" value="0.18697916666666667" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/fragment_aboutus.xml" value="0.25" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/home_list_view.xml" value="0.18" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/home_listview_item.xml" value="0.5921052631578947" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/showed_list_view.xml" value="0.1" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/layout/user_input_dialog.xml" value="0.22" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/menu/main.xml" value="0.18697916666666667" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.196875" />
+        <entry key="..\:/java/AndoirdStu_workspace/Test1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

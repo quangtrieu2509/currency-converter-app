@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="50dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/flag_of_currency"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name_of_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@id/code_of_currency"
+        android:layout_toEndOf="@id/cardView"
+        android:text="@string/default_value"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/code_of_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/default_value"
+        android:textAlignment="textEnd"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

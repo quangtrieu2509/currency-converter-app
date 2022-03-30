@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioGroup
+        android:id="@+id/decimal_num_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <RadioButton
+            android:id="@+id/one_decNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_decimal"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="@color/black"/>
+        <RadioButton
+            android:id="@+id/two_decNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two_decimals"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="@color/black"/>
+        <RadioButton
+            android:id="@+id/three_decNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/three_decimals"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/four_decNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="@string/four_decimals"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:buttonTint="@color/black"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/decimal_num_radioGroup"
+        android:layout_alignParentEnd="true"
+        android:paddingVertical="15dp"
+        android:text="@string/txt_cancel"
+        android:textColor="@color/main_color" />
+
+
+</RelativeLayout>
