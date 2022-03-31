@@ -43,6 +43,7 @@ import CurrencyConverter.databinding.FragmentFavoriteBinding;
 public class FavoriteFragment extends Fragment {
     private FloatingActionButton add_fab;
     private RecyclerView favRecycleView;
+    @SuppressLint("StaticFieldLeak")
     public static TextView emptyListNoti;
 
     public static ArrayList<CurrencyUnit> favList;
@@ -51,6 +52,7 @@ public class FavoriteFragment extends Fragment {
     private FavListAdapter adapterForFavList;
 
     private FragmentFavoriteBinding binding;
+    private Toast toastMessage; //control toast message (in choosingListView.setOnItemClickListener())
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -155,8 +157,13 @@ public class FavoriteFragment extends Fragment {
                 DataLocalManager.setFavCurrency(addedItem, LocalDateTime.now().toString());
                 adapterForFavList.addItem(addedItem);
 
-                Toast.makeText(view.getContext(), getContext().getString(R.string.added)+ addedItem
-                        + getContext().getString(R.string.to_the_fav_list), Toast.LENGTH_SHORT).show();
+
+                if (toastMessage!= null) {
+                    toastMessage.cancel();
+                }
+                toastMessage= Toast.makeText(view.getContext(), getContext().getString(R.string.added)+ addedItem
+                        + getContext().getString(R.string.to_the_fav_list), Toast.LENGTH_SHORT);
+                toastMessage.show();
 
                 adapter.removeItem(addedItem);
 //                Log.e("choosinglistsize", choosingFavList.size()+" "+"after remove" );
