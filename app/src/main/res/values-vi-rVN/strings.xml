@@ -222,6 +222,6 @@
     <string name="added">"Đã thêm "</string>
     <string name="to_the_fav_list">" vào danh sách yêu thích"</string>
     <string name="deleted">"Đã xóa "</string>
-    <string name="after_installed_direction">Vui lòng chuyển đến Trang chủ để sử dụng</string>
+    <string name="get_started">Bắt đầu</string>
     <string name="app_name">Bộ chuyển đổi tiền tệ</string>
 </resources>

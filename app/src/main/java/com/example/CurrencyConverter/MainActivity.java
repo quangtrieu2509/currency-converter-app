@@ -29,17 +29,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        DataLocalManager.init(getApplicationContext()); // init data manager for app
-        CurrencyList.initCurrList(CurrencyList.currList);  // init currency list
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        View root = binding.getRoot();
+//        View root = binding.getRoot();
 
         // gọi API khi vừa install app hoặc bật tự động cập nhật
-        if(DataLocalManager.getAutoUpdate())   //DataLocalManager.getFirstInstalled() ||
-                HomeFragment.currencyAPICall(root);
+//        if(DataLocalManager.getAutoUpdate())   //DataLocalManager.getFirstInstalled() ||
+//                HomeFragment.currencyAPICall(root);
 
         setSupportActionBar(binding.appBarMain.toolbar);
 

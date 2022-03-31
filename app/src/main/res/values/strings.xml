@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" >Currency Converter</string>
+    <string name="app_name">Currency Converter</string>
     <string name="nav_header_title" translatable="false">Currency Converter</string>
     <string name="nav_header_subtitle" translatable="false">currency.converter@android.com</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
@@ -198,11 +198,6 @@
     <string name="_btc" translatable="false">Bitcoin</string>
     <string name="_eth" translatable="false">Ethereum</string>
     <string name="_ltc" translatable="false">Litecoin</string>
-
-
-
-
-
 
 
     <string name="u_afn" translatable="false">؋</string>
@@ -446,7 +441,7 @@
     <string name="added">"Added "</string>
     <string name="to_the_fav_list">" to the favorite list"</string>
     <string name="deleted">"Deleted "</string>
-    <string name="after_installed_direction">Please go to the Home to use this app</string>
+    <string name="get_started">Get started</string>
 
 
 </resources>
