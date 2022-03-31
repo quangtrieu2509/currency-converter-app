@@ -11,7 +11,7 @@ public class CurrencyList {
     public static Map<String, CurrencyUnit> currList= new HashMap<>();
 
     public static void initCurrList(Map<String, CurrencyUnit> cList) {
-        Log.i("vvv", "initCur");
+//        Log.i("vvv", "initCur");
         cList.put("AED",new CurrencyUnit("AED", R.string._aed, R.string.u_aed, R.drawable._aed));
         cList.put("AFN",new CurrencyUnit("AFN", R.string._afn, R.string.u_afn, R.drawable._afn));
         cList.put("ALL",new CurrencyUnit("ALL", R.string._all, R.string.u_all, R.drawable._all));

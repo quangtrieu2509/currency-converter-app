@@ -31,12 +31,12 @@ public class DataLocalManager {
     }
 
     public static void setExchangeRate(String key, float value){
-        Log.i("vvv", "setttt "+key);
+//        Log.i("vvv", "setttt "+key);
         DataLocalManager.getInstance().exchangeRateSharedPrefs.putFloatValue(key, value);
     }
 
     public static float getExchangeRate(String key){
-        Log.i("vvv", "get "+ key);
+//        Log.i("vvv", "get "+ key);
         return DataLocalManager.getInstance().exchangeRateSharedPrefs.getFloatValue(key, 0);
     }
 

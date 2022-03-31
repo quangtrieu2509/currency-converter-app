@@ -87,7 +87,6 @@ public class HomeFragment extends Fragment {
 
         //hồi phục trạng thái cũ
         Number parse = 0;
-//        Toast.makeText(root.getContext(), Locale.getDefault().getDisplayLanguage(), Toast.LENGTH_SHORT).show();
         NumberFormat numberFormat = NumberFormat.getInstance(Locale.ENGLISH);
         try {
             parse = numberFormat.parse(DataLocalManager.getCurrentConvertedNum());
@@ -186,11 +185,11 @@ public class HomeFragment extends Fragment {
                             JSONObject objectData = response.getJSONObject("conversion_rates");
                             for(int i = 0; i< objectData.names().length(); i++){
                                 String key = objectData.names().getString(i);
-                                //Log.i("AAA", objectData.get(key)+"");
-                                if(!CurrencyList.currList.containsKey(key)) Log.i("AAB", key);
+//                                Log.i("AAA", objectData.get(key)+"");
+                                if(!CurrencyList.currList.containsKey(key)) Log.i("NCK", key);
                                 else {
                                     DataLocalManager.setExchangeRate(key, (float) objectData.getDouble(key));
-                                    Log.i("AAA", key);
+//                                    Log.i("AAA", key);
                                 }
                             }
                             Toast.makeText(view.getContext(), R.string.successful_update_noti,Toast.LENGTH_SHORT).show();
@@ -201,7 +200,7 @@ public class HomeFragment extends Fragment {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.i("AAA", error.toString());
+                Log.e("API_CALL", error.toString());
             }
         });
         requestQueue.add(jsonObjectRequest);
